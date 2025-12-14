@@ -1,19 +1,30 @@
 
 body {
-    margin: 0;
+    margin: 50px;
     background-image: url('https://www.splenda.com/wp-content/uploads/2021/07/tres-leches-cake-scaled.jpg'); 
     background-size: cover; 
     background-position: center;
 }
 header{
-    font-family: Verdana, Geneva, Tahoma;
-    font-size: 40px;
+    font-family:'Comic Sans MS', cursive, sans-serif;
+    font-size: 100px;
     color: purple;
     text-shadow: 2px 2px #FFD700;
     text-align: center;
 }
 h1{
     color: black;  
+    font-size: 50px;
+    font-family: Verdana, Geneva, Tahoma;
+    text-align: left;
+h2{
+    color: black;  
+    font-size: 40px;
+    font-family: Verdana, Geneva, Tahoma;
+    text-align: left;
+}
+h3{ 
+    color: darkslategray  
     font-size: 30px;
     font-family: Verdana, Geneva, Tahoma;
     text-align: left;
