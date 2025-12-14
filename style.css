@@ -1,0 +1,35 @@
+
+h1{
+    font-size: 40px;
+    color: #4CAF50;
+    text-align: center;
+font-family:Verdana, Geneva, Tahoma, sans-serif
+}
+
+/* Fondo de la página: cambia el color aquí */
+body {
+    margin: 0; /* evita espacios por defecto alrededor */
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f5f5f5; /* color de fondo por defecto (gris claro) */
+    /* Ejemplos alternativos:
+       background-color: #FFFAF0;                /* color por nombre */
+       background-color: #ffefd5;                /* color en hex */
+       background-color: rgba(255, 182, 193, 0.3); /* con transparencia */
+       background: linear-gradient(135deg, #f6d365 0%, #fda085 100%); /* degradado */
+       background-image: url('img/fondo.jpg'); background-size: cover; background-position: center; /* imagen */
+    */
+}
+
+/* Estilos para h2 y presentación */
+h2{
+    color: #FF69B4; /* Color rosa */
+    font-family: 'Comic Sans MS', cursive, sans-serif; /* Fuente divertida */
+    text-align: left;
+    text-shadow: 2px 2px #FFD700; /* Sombra dorada */
+    margin-left: 1rem;
+}
+
+/* Mejorar imagen responsiva */
+figure{ text-align: center; margin: 1rem 0; }
+figure img{ max-width: 100%; height: auto; border-radius: 8px; }
+figcaption{ font-size: 0.9rem; color: #666; }
