@@ -83,3 +83,6 @@ h3{
     gap: 15px;
     height: auto;
 }
+.special-item {
+    align-self: flex-start;
+}
