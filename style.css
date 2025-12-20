@@ -1,3 +1,16 @@
+/* Enlaces: quitar subrayado por defecto y mantener acceso por teclado */
+a {
+    text-decoration: none;
+    color: inherit; /* hereda color del contexto */
+}
+/* Asegurar estilo específico para el menú */
+.menu a {
+    color: #fff;
+    text-decoration: none;
+}
+.menu a:hover {
+color:#fd0e7e
+}
 
 body {
     margin: 50px;
@@ -67,7 +80,11 @@ font-size: 20px;
   text-align:center;
   justify-content: space-around;
   padding: 1em;
-  text-decoration: none;
+}
+
+.menu:hover {
+ color: rgb(238, 15, 89);
+ text-decoration:underline;
 }
 
 .flex-container2 {
