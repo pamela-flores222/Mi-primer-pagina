@@ -26,6 +26,7 @@ header{
     text-shadow: 2px 2px #FFD700;
     text-align: center;
 }
+
 h1{
     color:black;  
     font-size: 40px;
@@ -120,3 +121,24 @@ font-size: 20px;
   width: 100%;
   font-size: 14px;
 }
+
+
+.cookie-consent{
+font-size: 50px;
+  color: white;
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: black;
+  padding: 50px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  z-index: 2000;
+}
+.cookie-consent p{ margin: 0; font-size: .95rem; flex: 1; }
+.cookie-actions{ display: flex; gap: .5rem; align-items: center; }
+.cookie-consent .btn{ background: transparent; color: #fff; border: 1px solid rgba(255,255,255,0.2); padding: .4rem .7rem; border-radius: 6px; cursor: pointer; }
+.cookie-consent .btn-primary{ background: #ff69b4; border-color: #ff69b4; }
